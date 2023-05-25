@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 100;
+  padding: 100;
+  font-size: medium;
+  text-align: center;
+  line-height: 20px;
+  background-color:aliceblue;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  margin: 100;
+  padding: 0;
+  color: darkblue;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  margin: 100;
+  padding: 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #000;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #00acee;
+}
+
+img {
+  border-radius: 20%;
+  max-width: 100%;
+}
+
+.portfolio-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:darkgreen;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.portfolio-btn:hover {
+  background-color:mediumblue;
+  transition: background-color 1s;
+}
+
+.container {
+  margin: 100px auto;
+  padding: 20px;
+  width: 40%;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color:azure;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
