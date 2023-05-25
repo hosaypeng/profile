@@ -5,14 +5,14 @@ body {
   font-size: medium;
   text-align: center;
   line-height: 20px;
-  background-color:aliceblue;
+  background-color: white;
 }
 
 h1 {
   font-family: Arial, sans-serif;
   margin: 100;
   padding: 0;
-  color: darkblue;
+  color:black;
 }
 
 p {
@@ -43,7 +43,7 @@ img {
 .portfolio-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color:darkgreen;
+  background-color: black;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -51,43 +51,22 @@ img {
 }
 
 .portfolio-btn:hover {
-  background-color:mediumblue;
-  transition: background-color 1s;
+  color:black ;
+  background-color:white;
 }
 
 .container {
   margin: 100px auto;
   padding: 20px;
   width: 40%;
-  background-color: aliceblue;
+  background-color:white;
   text-align: center;
 }
 
 .card {
   margin-top: 20px;
   padding: 20px;
-  background-color:azure;
+  background-color:white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
 }
